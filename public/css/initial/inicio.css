@@ -1,0 +1,61 @@
+@import url("https://fonts.google.com/specimen/Sniglet?query=Sniglet");
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-font: black;
+    --color-strong: gray;
+}
+body {
+    font-family: "Sniglet";
+    width: 100%;
+    max-width:1024px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: max-content auto;
+    border-bottom: 0.8rem solid var(--color-strong);
+}
+
+header section {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+  }
+
+header section h1{
+    margin: 0 2ren;
+}
+
+header section picture img{
+    display: flex;
+    width: 100%;
+}
+
+main h1{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+header div{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header div a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: var(--color--font);
+}
+
+header div a:hover{
+    text-decoration:underline;
+    color: gray;
+}
