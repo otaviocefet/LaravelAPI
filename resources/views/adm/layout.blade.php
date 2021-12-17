@@ -18,10 +18,7 @@
   <nav>
     <ul>
       <li>
-        <a href="{{url('/textodiario')}}">Textos</a>
-      </li>
-      <li>
-        <a href="">teste</a>
+        <a href="{{url('/textodiario')}}">Lista de Jogos</a>
       </li>
     </ul>
   </nav>
