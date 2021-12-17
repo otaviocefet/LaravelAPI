@@ -2,7 +2,7 @@
 @extends ('adm.layout')
 
 @section('content')
-<a href="{{url('textodiario/create')}}" class="button">Adicionar</a>
+<a href="{{url('listadejogos/create')}}" class="button">Adicionar</a>
 <table>
   <thead>
     <tr>

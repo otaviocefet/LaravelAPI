@@ -8,7 +8,7 @@
   @endforeach
 </ul>
 @endif
-<form method="POST" action="{{url('textodiario')}}">
+<form method="POST" action="{{url('listadejogos')}}">
   @csrf
   @method('POST')
   <div class="row">
