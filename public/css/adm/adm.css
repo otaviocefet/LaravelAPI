@@ -4,6 +4,12 @@
     outline: 0;
     box-sizing: border-box;
   }
+  .logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
   :root {
     --color-font: black;
     --color-white: white;

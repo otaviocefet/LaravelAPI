@@ -11,7 +11,7 @@
   <header>
     <section>
       <picture>
-        <img src="{{asset('img/logo/logo.png')}}" alt="Logo" />
+        <img src="{{asset('img/logo/logo.png')}}" class="logo" alt="Logo" />
       </picture>
     </section>
   </header>
