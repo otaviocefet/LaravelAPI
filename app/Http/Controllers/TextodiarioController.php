@@ -47,7 +47,7 @@ class TextodiarioController extends Controller
             $textodiario->user_id = $request->get('user_id');
             $textodiario->texto = $request->get('texto');
             $textodiario->save();
-      return redirect("textodiario");
+      return redirect("listadejogos");
     }
 }
 
@@ -91,7 +91,7 @@ class TextodiarioController extends Controller
             $textodiario->user_id = $request->get('user_id');
             $textodiario->texto = $request->get('texto');
             $textodiario->save();
-      return redirect("textodiario");
+      return redirect("listadejogos");
     }
 }
 
