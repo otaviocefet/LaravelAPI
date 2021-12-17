@@ -6,8 +6,8 @@
 <table>
   <thead>
     <tr>
-      <th>Nome</th>
-      <th>Texto</th>
+      <th>Doador</th>
+      <th>Jogo doado</th>
     </tr>
   </thead>
   <tbody>

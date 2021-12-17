@@ -19,7 +19,7 @@
       <option value="{{$user->id}}" @if($user->id==$textodiario->user_id') selected @endif>{{$user->name}}</option>
       @endforeach
     </select>
-    <label class="col-2" for="doc">Texto</label>
+    <label class="col-2" for="doc">Nome do Jogo: </label>
     <input type="text" name="texto" id="tex" class="col-5" value="{{ old('texto') }}" />
   </div>
   <button type="submit" class="button">Salvar</button>
