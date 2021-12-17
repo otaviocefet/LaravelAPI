@@ -26,7 +26,7 @@ Route::middleware(['auth:sanctum', 'verified']) ->group(function(){
     })->name('dashboard');
     
 
-    Route::resource("textodiario", TextodiarioController::class);
+    Route::resource("listadejogos", TextodiarioController::class);
 }
 );
 

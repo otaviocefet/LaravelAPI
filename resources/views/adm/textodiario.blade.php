@@ -17,12 +17,12 @@
       <td>{{$textodiario->texto}}</td>
       
       <td>
-        <a href="{{route('textodiario.edit',$textodiario->id)}}" class="button">
+        <a href="{{route('listadejogos.edit',$textodiario->id)}}" class="button">
           Editar
         </a>
       </td>
       <td>
-        <form method="POST" action="{{route('textodiario.destroy',$textodiario->id)}}" onsubmit="return confirm('tem certeza?');">
+        <form method="POST" action="{{route('listadejogos.destroy',$textodiario->id)}}" onsubmit="return confirm('tem certeza?');">
           @csrf
           @method('DELETE')
           <button type="submit" class="button">
